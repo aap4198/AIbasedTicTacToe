@@ -6,8 +6,6 @@ import java.util.Set;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
-import boards.Board;
-
 public class RuleSet implements Iterable<Rule> {
     Set<Rule> ruleList = new HashSet<>();
 

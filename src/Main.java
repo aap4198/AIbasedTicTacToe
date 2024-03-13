@@ -30,7 +30,8 @@ public class Main {
                     board = gameEngine.move(board, computerMove);
                 }
             }
-            System.out.println("Game Result" + ruleEngine.getState(board));
+            System.out.println("Game Result" + ruleEngine.getState(board) + "And Winner is "
+                    + ruleEngine.getState(board).getWinner());
             System.out.println(board);
         } catch (Exception e) {
             System.out.println("Error" + e);

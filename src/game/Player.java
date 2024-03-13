@@ -2,7 +2,6 @@ package game;
 
 public class Player {
     private String playerSymbol;
-    private User id;
     private int timestampInMillis;
 
     public Player(String playerSymbol) {

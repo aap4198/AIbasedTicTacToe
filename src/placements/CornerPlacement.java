@@ -3,7 +3,6 @@ package placements;
 import java.util.Optional;
 
 import Utils.Utils;
-import boards.Board;
 import boards.TicTacToeBoard;
 import game.Cell;
 import game.Player;
